@@ -6,7 +6,9 @@
   "license": "ISC",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\"",
@@ -21,5 +23,16 @@
   "devDependencies": {
     "@types/node": "^18.14.3",
     "typescript": "^4.9.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadpylypenko/transaction-typeorm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vadpylypenko/transaction-typeorm/issues"
+  },
+  "homepage": "https://github.com/vadpylypenko/transaction-typeorm#readme"
 }
